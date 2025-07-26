@@ -107,22 +107,3 @@ RAG-CHATBOT-FASTAPI/
 ## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
-
-## License
-
-This project is licensed under the MIT License.
-
-**Note:**  
-This README is based on best practices and standard RAG chatbot setups[6][2][3]. For specific configuration, file paths, or advanced options, consult the source code and in-repo documentation (if provided). If you have access to the actual codebase, adjust interface endpoints or model specifications as necessary.
-
-[1] https://github.com/Dev-W32/RAG-Chatbot
-[2] https://github.com/ZeusSama0001/RAG-chatbot
-[3] https://github.com/umbertogriffo/rag-chatbot
-[4] https://github.com/vitorccmanso/Rag-ChatBot
-[5] https://github.com/AlaGrine/RAG_chatabot_with_Langchain
-[6] https://github.com/cloudxlab/RAG-Chatbot-from-web-data/blob/master/README.md
-[7] https://github.com/rumeysacelik/RAG-Project/blob/new-branch/README.md
-[8] https://github.com/pymupdf/RAG
-[9] https://www.datacamp.com/projects/2041
-[10] https://github.com/umbertogriffo/rag-chatbot/blob/main/README.md
-[11] https://codebase.helmholtz.cloud/f.doering/rag-chatbot/-/blob/b0f28dca4abcfe5b7bb2ae908fe4e771a1bcfa2d/README.md
