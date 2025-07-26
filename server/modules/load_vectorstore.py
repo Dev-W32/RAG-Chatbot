@@ -14,7 +14,7 @@ def load_vectorstore(uploaded_files):
     file_paths = []
     
     for file in uploaded_files:
-        save_path = Path({UPLOAD_DIR})/file.filename
+        save_path = Path(UPLOAD_DIR)/file.filename
         with open(save_path,"wb") as f:
             f.write(file.file.read())
         file_paths.append(str(save_path))

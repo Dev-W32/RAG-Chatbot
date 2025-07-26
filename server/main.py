@@ -28,7 +28,7 @@ async def catch_exception_middleware(request:Request, call_next):
     except Exception as e:
         logger.exception("Unhandled Exception")
         return JSONResponse(status_code=500, content={"error": str(e)})
-    
+
 @app.post("/upload_pdfs/")
 async def upload_pdfs(files:List[UploadFile]=File(...)):
     try:
@@ -40,7 +40,7 @@ async def upload_pdfs(files:List[UploadFile]=File(...)):
         logger.exception("Error in upload_pdfs function")
         return JSONResponse(status_code=500, content={"error": str(e)})
 
-@app.post("ask/")
+@app.post("/ask/")
 async def ask_questions(question:str=Form(...)):
     try:
         logger.info(f"user query: {question}")
